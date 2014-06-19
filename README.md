@@ -37,6 +37,8 @@ $(function() {
 });
 ```
 
+By default, the client format's url is copied to the `src`-attribute which will start loading the image. Read ahead to find out, how to use a different attribute and integrate with [jquery-lazyload](http://www.appelsiini.net/projects/lazyload).
+
 Advanced Usage
 --------------
 
@@ -63,4 +65,4 @@ $.fn.imageformat.setImageFormat('my-format', 1280, 990);
 Type: `String`
 Default value: `src`
 
-Name of the attribute the client format's corresponding url is copied to.
+Name of the attribute the client format's corresponding url is copied to. Defaults to `src`.
